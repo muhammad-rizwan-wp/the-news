@@ -490,6 +490,16 @@ img {
 }
 
 @media only screen and (min-width:320px) and (max-width:600px) {
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
     section {
         padding-left: 15px;
         padding-right: 15px;
@@ -497,6 +507,15 @@ img {
 
     :where(.hero) .category-row {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .category-row .category .content>h3 {
+        font-size: 14px;
+    }
+
+    .category-row .category .content>p {
+        font-size: 12px;
+        line-height: 16px;
     }
 
     :where(.latest_news) .two__col-lay {
